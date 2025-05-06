@@ -4,7 +4,7 @@
 import { useEffect, useRef, useState } from "react";
 import { Button } from "@/components/ui/button"; // 假設 Button 是你自己的組件
 
-const BACKEND_URL = "http://192.168.1.107:8000";  // ⚠️ 這裡改成你的後端 API
+const BACKEND_URL = "http://192.168.1.138:8000";  // ⚠️ 這裡改成你的後端 API
 
 export default function EnterdPage() {
   const [inputValue, setInputValue] = useState(""); // 儲存輸入框內容
